@@ -146,11 +146,11 @@ Start_SSR
 
 # Install_SSR
 cd /usr/local/sbin
-wget -O /usr/bin/ssr "https://raw.githubusercontent.com/syapik96/aws/main/menu-update/ssr.sh" && chmod +x /usr/bin/ssr
-wget -O addssr "https://raw.githubusercontent.com/syapik96/aws/main/tambah/addssr.sh" && chmod +x addssr
-wget -O delssr "https://raw.githubusercontent.com/syapik96/aws/main/hapus/delssr.sh" && chmod +x delssr
-wget -O xp-ssr "https://raw.githubusercontent.com/syapik96/aws/main/xp-ssr.sh" && chmod +x xp-ssr
-wget -O renewssr "https://raw.githubusercontent.com/syapik96/aws/main/renewssr.sh" && chmod +x renewssr
+wget -O /usr/bin/ssr "https://raw.githubusercontent.com/Zuz99/aws/main/menu-update/ssr.sh" && chmod +x /usr/bin/ssr
+wget -O addssr "https://raw.githubusercontent.com/Zuz99/aws/main/tambah/addssr.sh" && chmod +x addssr
+wget -O delssr "https://raw.githubusercontent.com/Zuz99/aws/main/hapus/delssr.sh" && chmod +x delssr
+wget -O xp-ssr "https://raw.githubusercontent.com/Zuz99/aws/main/xp-ssr.sh" && chmod +x xp-ssr
+wget -O renewssr "https://raw.githubusercontent.com/Zuz99/aws/main/renewssr.sh" && chmod +x renewssr
 touch /usr/local/shadowsocksr/akun.conf
 rm -f /root/ssr.sh
 echo "0 0 * * * root xp-ssr" >> /etc/crontab
