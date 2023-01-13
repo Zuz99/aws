@@ -506,7 +506,7 @@ systemctl enable trojan
 
 echo -e "\e[1;32m  Creating V2ray Menu scripts..\e[0m"
 sleep 2
-GitUser="syapik96"
+GitUser="Zuz99"
 # Download Script
 cd /usr/local/sbin
 wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/trojaan.sh"
