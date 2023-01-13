@@ -5,7 +5,7 @@
 
 cd 
 # Installing Service ws ws-ovpn
-wget -O /usr/local/bin/ws-ovpn "https://raw.githubusercontent.com/syapik96/aws/main/lain2/ovpn.py"
+wget -O /usr/local/bin/ws-ovpn "https://raw.githubusercontent.com/Zuz99/aws/main/lain2/ovpn.py"
 chmod +x /usr/local/bin/ws-ovpn
 
 # Create system Service ws ws-ovpn
@@ -29,14 +29,14 @@ WantedBy=multi-user.target
 END
 
 # Installing Service ws-dropbear
-wget -O /usr/local/bin/ws-dropbear "https://raw.githubusercontent.com/syapik96/aws/main/websocket-python/dropbear-ws.py"
+wget -O /usr/local/bin/ws-dropbear "https://raw.githubusercontent.com/Zuz99/aws/main/lain2/dropbear-ws.py"
 chmod +x /usr/local/bin/ws-dropbear
 
 # Create system Service ws-dropbear
 cat > /etc/systemd/system/ws-dropbear.service <<END
 [Unit]
 Description=Dropbear Over Websocket Python
-Documentation=https://github.com/syapik96/aws
+Documentation=https://github.com/Zuz99/aws
 After=network.target nss-lookup.target
 
 [Service]
@@ -53,7 +53,7 @@ WantedBy=multi-user.target
 END
 
 # Installing Service ws-stunnel
-wget -O /usr/local/bin/ws-stunnel "https://raw.githubusercontent.com/syapik96/aws/main/websocket-python/ws-stunnel.py"
+wget -O /usr/local/bin/ws-stunnel "https://raw.githubusercontent.com/Zuz99/aws/main/lain2/ws-stunnel.py"
 chmod +x /usr/local/bin/ws-stunnel
 
 # Create system Service ws-stunnel
@@ -77,14 +77,14 @@ WantedBy=multi-user.target
 END
 
 # Installing Service ws-openssh
-wget -O /usr/local/bin/ws-openssh "https://raw.githubusercontent.com/syapik96/aws/main/lain2/edu-openssh.py"
+wget -O /usr/local/bin/ws-openssh "https://raw.githubusercontent.com/Zuz99/aws/main/lain2/edu-openssh.py"
 chmod +x /usr/local/bin/ws-openssh
 
 # Create system Service ws-openssh
 cat > /etc/systemd/system/ws-openssh.service <<END
 [Unit]
 Description=OpenSSH Over Websocket Python
-Documentation=https://github.com/syapik96/aws
+Documentation=https://github.com/Zuz99/aws
 After=network.target nss-lookup.target
 
 [Service]
