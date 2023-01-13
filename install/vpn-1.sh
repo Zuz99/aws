@@ -70,7 +70,7 @@ cp /etc/openvpn/easy-rsa/keys/ca.crt /etc/openvpn/ca.crt
 chmod +x /etc/openvpn/ca.crt
 
 # install openvpn
-# wget -O /etc/openvpn/vpn.zip "https://github.com//raw/main/vpn.zip"
+# wget -O /etc/openvpn/vpn.zip "https://github.com/raw/main/vpn.zip"
 # cd /etc/openvpn/
 # unzip vpn.zip
 # rm -f vpn.zip
