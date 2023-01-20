@@ -259,7 +259,7 @@ cp /etc/openvpn/client-tcp-ssl.ovpn /home/vps/public_html/client-tcp-ssl.ovpn
 apt-get install ufw
 ufw allow ssh
 ufw allow 1194/tcp
-ufw allow 81/tcp
+ufw allow 80/tcp
 ufw allow 2200/udp
 
 
