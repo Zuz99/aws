@@ -353,9 +353,9 @@ rm -f /root/vnstat-2.6.tar.gz
 rm -rf /root/vnstat-2.6
 
 # install webmin
-apt install webmin -y
+'apt install webmin -y
 sed -i 's/ssl=1/ssl=0/g' /etc/webmin/miniserv.conf
-/etc/init.d/webmin restart
+/etc/init.d/webmin restart'
 
 # install stunnel
 apt-get install stunnel4 -y
